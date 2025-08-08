@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=New Color Scheme
+ColorScheme=TokyoNightNightKonsole
 Font=AdwaitaMono Nerd Font Mono,18,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [General]
