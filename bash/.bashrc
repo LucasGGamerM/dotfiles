@@ -122,7 +122,7 @@ fi
 if [[ -z "${TMUXLESS}" ]]; then
   # I was using zellij
   if [[ -z "${TMUX}" ]]; then
-      tmux a -t default || tmux new
+      tmux a -t default || tmux new default
   fi
 fi
 
