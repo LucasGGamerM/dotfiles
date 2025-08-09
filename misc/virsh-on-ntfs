@@ -1,0 +1,2 @@
+#!/bin/bash
+setsebool -P virt_use_fusefs 1
