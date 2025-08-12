@@ -1,3 +1,6 @@
 var/lib/machines
 var/cache
 var/lib/flatpak
+
+# User
+$HOME/.cache
