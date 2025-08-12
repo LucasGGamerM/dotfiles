@@ -1,0 +1,19 @@
+{
+	"name": "Vimium C",
+	"@time": "12/08/2025, 11:24:19",
+	"time": 1755008659394,
+	"environment": {
+		"extension": "2.12.3",
+		"platform": "linux",
+		"firefox": 141
+	},
+	"keyLayout": 2,
+	"keyMappings": [
+		"#!no-check",
+		"unmap f",
+		"map <c-f> LinkHints.activate",
+		"mapKey <c-c> <c-[>",
+		""
+	],
+	"vimSync": true
+}

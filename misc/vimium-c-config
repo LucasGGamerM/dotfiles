@@ -1,3 +1,0 @@
-unmap f
-map <c-f> LinkHints.activate
-mapKey <c-c> <c-[>
