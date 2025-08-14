@@ -2,3 +2,4 @@
 tmux/.config/tmux/plugins/*
 tmux/.config/tmux/legacy/*
 *.bak
+*.uuid
