@@ -254,6 +254,8 @@ return {
       picker = {
         enabled = true,
         prompt = ' ',
+        hidden = true,
+        ignored = true,
         sources = {},
         focus = 'input',
         layout = {
