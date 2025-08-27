@@ -33,7 +33,14 @@ return {
         end,
         desc = 'Search Git [L]og',
       },
-      -- -- Iterate through incomplete tasks in Snacks_picker
+      -- Open registers picker
+      {
+        '<leader>sy',
+        function()
+          Snacks.picker.registers()
+        end,
+        desc = 'Search registers',
+      }, -- -- Iterate through incomplete tasks in Snacks_picker
       -- {
       --   -- -- You can confirm in your teminal lamw26wmal with:
       --   -- -- rg "^\s*-\s\[ \]" test-markdown.md
