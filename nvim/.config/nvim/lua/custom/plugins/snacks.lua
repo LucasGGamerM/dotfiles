@@ -28,7 +28,7 @@ return {
             format = 'git_log',
             preview = 'git_show',
             confirm = 'git_checkout',
-            layout = 'vertical',
+            -- layout = 'vertical',
           }
         end,
         desc = 'Search Git [L]og',
