@@ -128,7 +128,7 @@ return {
         '<leader>sk',
         function()
           Snacks.picker.keymaps {
-            layout = 'vertical',
+            -- layout = 'vertical',
           }
         end,
         desc = '[S]earch [K]eymaps',
