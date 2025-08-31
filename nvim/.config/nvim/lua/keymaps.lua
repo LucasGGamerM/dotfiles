@@ -8,8 +8,8 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
--- Diagnostic keymaps
-vim.keymap.set('n', '<leader>e', '<CMD>Oil<CR>', { desc = 'Open file [E]xplorer' })
+-- File explorer thingy 
+vim.keymap.set('n', '<leader>e', '<CMD>lua MiniFiles.open()<CR>', { desc = 'Open file [E]xplorer' })
 
 -- Buffer switch with tabs
 vim.keymap.set('n', '<Tab>', vim.cmd.bn, { desc = 'Go to next buffer' })
