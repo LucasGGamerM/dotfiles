@@ -105,7 +105,7 @@ return {
           -- Fuzzy find all the symbols in your current document.
           --  Symbols are things like variables, functions, types, etc.
           map('gO', function()
-            Snacks.picker.lsp_document_symbols()
+            Snacks.picker.lsp_symbols()
           end, 'Open Document Symbols')
 
           -- Fuzzy find all the symbols in your current workspace.
