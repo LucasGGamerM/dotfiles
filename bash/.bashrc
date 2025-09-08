@@ -129,4 +129,8 @@ fi
 
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
+
+bind '"^P": history-search-backward'
+bind '"^N": history-search-forward'
+
 eval "$(zoxide init bash)"
