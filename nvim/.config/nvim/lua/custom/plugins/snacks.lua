@@ -121,6 +121,16 @@ return {
         end,
         desc = '[S]earch [D]iagnostics',
       },
+      -- Search for lsp references
+      {
+        '<leader>su',
+        function()
+          Snacks.picker.lsp_references {
+            -- layout = 'select',
+          }
+        end,
+        desc = '[S]earch [U]sages',
+      },
       -- Used in LazyVim to view the different keymaps, this by default is
       -- configured as <leader>sk but I run it too often
       -- Sometimes I need to see if a keymap is already taken or not
