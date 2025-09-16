@@ -150,6 +150,8 @@ return {
           Snacks.picker.files {
             finder = 'files',
             format = 'file',
+            hidden = true,
+            ignored = true,
             show_empty = true,
             supports_live = true,
             -- In case you want to override the layout for this keymap
