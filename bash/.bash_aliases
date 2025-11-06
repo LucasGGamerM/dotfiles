@@ -4,6 +4,8 @@ alias gtm="cd ~/AndroidStudioProjects/LucasGGamerM/moshidon.git/"
 alias gtdm="cd ~/Música/deemix\ Music/"
 alias gtcf="cd ~/Projetos/codeforces"
 
+alias xo="xdg-open"
+
 alias p="python3"
 
 # alias hows-my-gpu='echo "NVIDIA Dedicated Graphics" | grep "NVIDIA" && lspci -nnk | grep "NVIDIA Corporation GA107M" -A 2 | grep "Kernel driver in use" && echo "Intel Integrated Graphics" | grep "Intel" && lspci -nnk | grep "Intel.*Integrated Graphics Controller" -A 3 | grep "Kernel driver in use" && echo "Confirm which gpu libraries are in use with (active-gpu and active-gpu-prime)" && echo "Enable and disable the dedicated NVIDIA GPU with nvidia-enable and nvidia-disable"'
