@@ -85,7 +85,7 @@ KrohnkiteStackedLayout=none,none,Krohnkite: Stacked Layout
 KrohnkiteStairLayout=none,none,Krohnkite: Stair Layout
 KrohnkiteTileLayout=Meta+Ctrl+1\tMeta+W,none,Krohnkite: Tile Layout
 KrohnkiteToggleFloat=Meta+F,none,Krohnkite: Toggle Float
-KrohnkiteTreeColumnLayout=Meta+Shift+B\tMeta+Ctrl+2,none,Krohnkite: Three Column Layout
+KrohnkiteTreeColumnLayout=Meta+Shift+B\tMeta+Ctrl+2\t,none,Krohnkite: Three Column Layout
 KrohnkitegrowWidth=Meta+Ctrl+L,none,Krohnkite: Grow Width
 KrohnkitetoggleDock=none,none,Krohnkite: Toggle Dock
 Move Tablet to Next Output=none,none,Mover o tablet para a próxima saída
@@ -221,7 +221,7 @@ Window to Desktop 9=none,,Janela para a área de trabalho 9
 Window to Next Desktop=Meta+Shift+D\tMeta+Ctrl+Shift+N,,Janela para a próxima área de trabalho
 Window to Next Screen=Meta+Shift+Right\tMeta+Shift+N,Meta+Shift+Right,Mover janela para a próxima tela
 Window to Previous Desktop=Meta+Ctrl+Shift+P\tMeta+Shift+A,,Janela para a área de trabalho anterior
-Window to Previous Screen=Meta+Shift+Left,Meta+Shift+Left,Mover janela para a tela anterior
+Window to Previous Screen=Meta+Shift+P\tMeta+Shift+Left,Meta+Shift+Left,Mover janela para a tela anterior
 Window to Screen 0=none,,Mover janela para a tela 0
 Window to Screen 1=none,,Mover janela para a tela 1
 Window to Screen 2=none,,Mover janela para a tela 2
@@ -261,7 +261,7 @@ Sleep=Sleep,Sleep,Suspender
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Alternar a iluminação do teclado
 Turn Off Screen=none,none,Desligar a tela
 _k_friendly_name=Gerenciamento de energia
-powerProfile=Battery\tMeta+B,Battery\tMeta+B,Trocar perfil de energia
+powerProfile=Battery,Battery\tMeta+B,Trocar perfil de energia
 
 [plasmashell]
 Slideshow Wallpaper Next Image=none,,Próxima imagem de papel de parede
