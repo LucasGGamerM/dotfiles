@@ -8,7 +8,11 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
--- File explorer thingy 
+vim.keymap.set('n', '<space>ca', function()
+  vim.lsp.buf.code_action { apply = true }
+end, { desc = 'Open code [A]ctions' })
+
+-- File explorer thingy
 vim.keymap.set('n', '<leader>e', '<CMD>lua MiniFiles.open()<CR>', { desc = 'Open file [E]xplorer' })
 
 -- Buffer switch with tabs
