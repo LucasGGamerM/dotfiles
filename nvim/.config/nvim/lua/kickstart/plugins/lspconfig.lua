@@ -234,6 +234,8 @@ return {
         --
         bashls = {},
 
+        jdtls = {},
+
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
