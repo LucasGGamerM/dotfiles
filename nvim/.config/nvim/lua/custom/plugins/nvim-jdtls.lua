@@ -84,7 +84,7 @@ return {
     if mason_registry.is_installed 'java-debug-adapter' then
       bundles = vim.fn.glob('$MASON/share/java-debug-adapter/com.microsoft.java.debug.plugin-*jar', false, true)
       -- java-test also depends on java-debug-adapter.
-      if opts.test and mason_registry.is_installed 'java-test' then
+      if mason_registry.is_installed 'java-test' then
         vim.list_extend(bundles, vim.fn.glob('$MASON/share/java-test/*.jar', false, true))
       end
     end
@@ -163,12 +163,10 @@ return {
           if mason_registry.is_installed 'java-debug-adapter' then
             -- custom init for Java debugger
             require('jdtls').setup_dap(opts.dap)
-            if opts.dap_main then
-              require('jdtls.dap').setup_dap_main_class_configs(opts.dap_main)
-            end
+            require('jdtls.dap').setup_dap_main_class_configs(opts.dap_main)
 
             -- Java Test require Java debugger to work
-            if opts.test and mason_registry.is_installed 'java-test' then
+            if mason_registry.is_installed 'java-test' then
               -- custom keymaps for Java test runner (not yet compatible with neotest)
               wk.add {
                 {
@@ -178,18 +176,14 @@ return {
                   {
                     '<leader>tt',
                     function()
-                      require('jdtls.dap').test_class {
-                        config_overrides = type(opts.test) ~= 'boolean' and opts.test.config_overrides or nil,
-                      }
+                      require('jdtls.dap').test_class {}
                     end,
                     desc = 'Run All Test',
                   },
                   {
                     '<leader>tr',
                     function()
-                      require('jdtls.dap').test_nearest_method {
-                        config_overrides = type(opts.test) ~= 'boolean' and opts.test.config_overrides or nil,
-                      }
+                      require('jdtls.dap').test_nearest_method {}
                     end,
                     desc = 'Run Nearest Test',
                   },
