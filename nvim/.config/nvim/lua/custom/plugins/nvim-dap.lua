@@ -35,53 +35,7 @@ return {
 
   config = function()
     -- load mason-nvim-dap here, after all adapters have been setup
-    require('mason-nvim-dap').setup {
-      ensure_installed = { 'javadbg' },
-      automatic_installation = true,
-      handlers = {
-        function(config)
-          require('mason-nvim-dap').default_setup(config)
-        end,
-      },
-
-      dependencies = { 'nvim-neotest/nvim-nio', 'rcarriga/nvim-dap-ui' },
-
-      -- stylua: ignore
-      keys = {
-        { "<leader>du", function() require("dapui").toggle({ }) end, desc = "Dap UI" },
-        { "<leader>de", function() require("dapui").eval() end, desc = "Eval", mode = {"n", "x"} },
-      },
-
-      opts = function()
-        -- Simple configuration to attach to remote java debug process
-        -- Taken directly from https://github.com/mfussenegger/nvim-dap/wiki/Java
-        local dap = require 'dap'
-        dap.configurations.java = {
-          {
-            type = 'java',
-            request = 'attach',
-            name = 'Debug (Attach) - Remote',
-            hostName = '127.0.0.1',
-            port = 5005,
-          },
-        }
-      end,
-
-      config = function(_, opts)
-        local dap = require 'dap'
-        local dapui = require 'dapui'
-        dapui.setup(opts)
-        dap.listeners.after.event_initialized['dapui_config'] = function()
-          dapui.open {}
-        end
-        dap.listeners.before.event_terminated['dapui_config'] = function()
-          dapui.close {}
-        end
-        dap.listeners.before.event_exited['dapui_config'] = function()
-          dapui.close {}
-        end
-      end,
-    }
+    require('mason-nvim-dap').setup()
 
     vim.api.nvim_set_hl(0, 'DapStoppedLine', { default = true, link = 'Visual' })
 
@@ -91,5 +45,20 @@ return {
     vscode.json_decode = function(str)
       return vim.json.decode(json.json_strip_comments(str))
     end
+  end,
+
+  opts = function()
+    -- Simple configuration to attach to remote java debug process
+    -- Taken directly from https://github.com/mfussenegger/nvim-dap/wiki/Java
+    local dap = require 'dap'
+    -- dap.configurations.java = {
+    --   {
+    --     type = 'java',
+    --     request = 'attach',
+    --     name = 'Debug (Attach) - Remote',
+    --     hostName = '127.0.0.1',
+    --     port = 5005,
+    --   },
+    -- }
   end,
 }
