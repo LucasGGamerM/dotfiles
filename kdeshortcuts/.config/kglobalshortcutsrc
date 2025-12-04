@@ -30,14 +30,14 @@ mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Sil
 mute=Volume Mute,Volume Mute,Silenciar
 
 [ksmserver]
-Halt Without Confirmation=none,,Desligar sem confirmação
+Halt Without Confirmation=none,none,Desligar sem confirmação
 Lock Session=Meta+Shift+C,Meta+L\tScreensaver,Bloquear sessão
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Mostrar tela para encerrar sessão
-Log Out Without Confirmation=none,,Encerrar sessão sem confirmação
-LogOut=none,,Encerrar sessão
-Reboot=none,,Reiniciar
-Reboot Without Confirmation=none,,Reiniciar sem confirmação
-Shut Down=none,,Desligar
+Log Out Without Confirmation=none,none,Encerrar sessão sem confirmação
+LogOut=none,none,Encerrar sessão
+Reboot=none,none,Reiniciar
+Reboot Without Confirmation=none,none,Reiniciar sem confirmação
+Shut Down=none,none,Desligar
 _k_friendly_name=Gerenciamento de sessões
 
 [kwin]
@@ -238,11 +238,11 @@ view_zoom_out=Meta+-,Meta+-,Reduzir
 
 [mediacontrol]
 _k_friendly_name=Controlador de mídia
-mediavolumedown=none,,Diminuir volume da mídia
-mediavolumeup=none,,Aumentar volume da mídia
+mediavolumedown=none,none,Diminuir volume da mídia
+mediavolumeup=none,none,Aumentar volume da mídia
 nextmedia=Media Next,Media Next,Próxima reprodução de mídia
 pausemedia=Media Pause,Media Pause,Pausar reprodução de mídia
-playmedia=none,,Reproduzir mídia
+playmedia=none,none,Reproduzir mídia
 playpausemedia=Media Play,Media Play,Reproduzir/Pausar reprodução de mídia
 previousmedia=Media Previous,Media Previous,Reprodução de mídia anterior
 stopmedia=Media Stop,Media Stop,Parar reprodução de mídia
@@ -303,6 +303,9 @@ _launch=Ctrl+Alt+T
 
 [services][mcpelauncher-ui-qt-2.desktop]
 _launch=
+
+[services][net.local.vertical-mode-bed.sh.desktop]
+_launch=Meta+Ctrl+Alt+V
 
 [services][obs-nvidia.desktop]
 _launch=
