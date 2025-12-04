@@ -5,6 +5,7 @@ FreeFloating=true
 browserhistoryEnabled=false
 browsertabsEnabled=false
 krunner_appstreamEnabled=false
+krunner_webshortcutsEnabled=false
 
 [Plugins][Favorites]
 plugins=krunner_sessions,krunner_powerdevil,windows,krunner_services,krunner_systemsettings
