@@ -30,14 +30,14 @@ mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Sil
 mute=Volume Mute,Volume Mute,Silenciar
 
 [ksmserver]
-Halt Without Confirmation=none,none,Desligar sem confirmação
+Halt Without Confirmation=none,,Desligar sem confirmação
 Lock Session=Meta+Shift+C,Meta+L\tScreensaver,Bloquear sessão
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Mostrar tela para encerrar sessão
-Log Out Without Confirmation=none,none,Encerrar sessão sem confirmação
-LogOut=none,none,Encerrar sessão
-Reboot=none,none,Reiniciar
-Reboot Without Confirmation=none,none,Reiniciar sem confirmação
-Shut Down=none,none,Desligar
+Log Out Without Confirmation=none,,Encerrar sessão sem confirmação
+LogOut=none,,Encerrar sessão
+Reboot=none,,Reiniciar
+Reboot Without Confirmation=none,,Reiniciar sem confirmação
+Shut Down=none,,Desligar
 _k_friendly_name=Gerenciamento de sessões
 
 [kwin]
@@ -219,9 +219,9 @@ Window to Desktop 7=Meta+&,,Janela para a área de trabalho 7
 Window to Desktop 8=Meta+*,,Janela para a área de trabalho 8
 Window to Desktop 9=Meta+(,,Janela para a área de trabalho 9
 Window to Next Desktop=Meta+Shift+D\tMeta+Ctrl+Shift+N,,Janela para a próxima área de trabalho
-Window to Next Screen=Meta+Shift+Right\tMeta+Shift+N,Meta+Shift+Right,Mover janela para a próxima tela
+Window to Next Screen=Meta+Shift+N\tMeta+Ctrl+Shift+D\tMeta+Shift+Right,Meta+Shift+Right,Mover janela para a próxima tela
 Window to Previous Desktop=Meta+Ctrl+Shift+P\tMeta+Shift+A,,Janela para a área de trabalho anterior
-Window to Previous Screen=Meta+Shift+P\tMeta+Shift+Left,Meta+Shift+Left,Mover janela para a tela anterior
+Window to Previous Screen=Meta+Ctrl+Shift+A\tMeta+Shift+Left\tMeta+Shift+P,Meta+Shift+Left,Mover janela para a tela anterior
 Window to Screen 0=none,,Mover janela para a tela 0
 Window to Screen 1=none,,Mover janela para a tela 1
 Window to Screen 2=none,,Mover janela para a tela 2
@@ -238,11 +238,11 @@ view_zoom_out=Meta+-,Meta+-,Reduzir
 
 [mediacontrol]
 _k_friendly_name=Controlador de mídia
-mediavolumedown=none,none,Diminuir volume da mídia
-mediavolumeup=none,none,Aumentar volume da mídia
+mediavolumedown=none,,Diminuir volume da mídia
+mediavolumeup=none,,Aumentar volume da mídia
 nextmedia=Media Next,Media Next,Próxima reprodução de mídia
 pausemedia=Media Pause,Media Pause,Pausar reprodução de mídia
-playmedia=none,none,Reproduzir mídia
+playmedia=none,,Reproduzir mídia
 playpausemedia=Media Play,Media Play,Reproduzir/Pausar reprodução de mídia
 previousmedia=Media Previous,Media Previous,Reprodução de mídia anterior
 stopmedia=Media Stop,Media Stop,Parar reprodução de mídia
