@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "LucasGGamerM@protonmail.com",
+                "Name": "LucasGGamerM"
+            }
+        ],
+        "Description": "Breeze but tokyo night",
+        "Id": "Tokyo Night",
+        "License": "LGPL 2.1+",
+        "Name": "Tokyo Night",
+        "Website": "github.com/LucasGGamerM"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;",
+    "X-Plasma-APIVersion": "2",
+    "X-Plasma-MainScript": "default"
+}
