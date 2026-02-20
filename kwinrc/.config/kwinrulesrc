@@ -1,0 +1,62 @@
+[1d4b27d3-123d-4147-b4a0-9f17105cfd62]
+Description=Configurações de aplicativo para com.rtosta.zapzap
+maximizehorizrule=3
+maximizevertrule=3
+wmclass=\scom.rtosta.zapzap
+wmclasscomplete=true
+wmclassmatch=1
+
+[2e295e01-b401-487b-9389-c08ad03cae7f]
+Description=Minecraft Bedrock Tearing
+tearingrule=2
+wmclass=mcpelauncher-client
+wmclasscomplete=true
+wmclassmatch=1
+
+[50e3cffe-31f6-498c-ae3d-9a8d11bb4895]
+Description=Configurações de aplicativo para kitty
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=kitty
+wmclassmatch=1
+
+[6422d457-1d29-4cdf-962e-00f99beceed5]
+Description=System settings size limit
+minsize=0,0
+minsizerule=2
+wmclass=systemsettings
+wmclasscomplete=true
+wmclassmatch=2
+
+[7cbfb31e-50a7-4127-9b06-f9c53eab57a9]
+Description=Activities
+activity=ef00ee2a-6a44-4d47-98e2-b1043f9fa94c
+activityrule=3
+wmclass=Signal
+wmclassmatch=2
+
+[General]
+count=7
+rules=1d4b27d3-123d-4147-b4a0-9f17105cfd62,50e3cffe-31f6-498c-ae3d-9a8d11bb4895,7cbfb31e-50a7-4127-9b06-f9c53eab57a9,2e295e01-b401-487b-9389-c08ad03cae7f,c97b1f10-fd17-4d07-ad3c-382977e70695,6422d457-1d29-4cdf-962e-00f99beceed5,e767a94a-77fb-498c-ace0-f78ee1188082
+
+[c97b1f10-fd17-4d07-ad3c-382977e70695]
+Description=Firefox PIP
+above=true
+aboverule=3
+desktops=\\0
+desktopsrule=3
+layer=critical-notification
+layerrule=2
+title=Picture-in-Picture
+titlematch=1
+wmclass=org.mozilla.firefox
+wmclassmatch=1
+
+[e767a94a-77fb-498c-ace0-f78ee1188082]
+Description=Steam size limit
+minsizerule=2
+wmclass=steam
+wmclasscomplete=true
+wmclassmatch=2
