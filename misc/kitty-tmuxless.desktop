@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=kitty-tmuxless
-GenericName=Terminal emulator
+GenericName=Terminal emulator without tmux
 Comment=Fast, feature-rich, GPU based terminal without tmux
 StartupNotify=true
 Exec=sh -c "env TMUXLESS=1 kitty"
