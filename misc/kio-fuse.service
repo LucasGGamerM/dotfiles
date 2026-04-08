@@ -1,0 +1,8 @@
+[Unit]
+Description=Fuse interface for KIO
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=sh -c "mkdir -p /run/user/1000/kio-fuse/ && /usr/libexec/kio-fuse -f /run/user/1000/kio-fuse/"
+BusName=org.kde.KIOFuse
+Slice=background.slice
