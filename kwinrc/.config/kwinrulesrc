@@ -15,6 +15,8 @@ wmclassmatch=1
 
 [50e3cffe-31f6-498c-ae3d-9a8d11bb4895]
 Description=Configurações de aplicativo para kitty
+desktops=39314539-374e-48c9-b08b-ad96120239f4
+desktopsrule=3
 maximizehoriz=true
 maximizehorizrule=3
 maximizevert=true
@@ -37,9 +39,25 @@ activityrule=3
 wmclass=Signal
 wmclassmatch=2
 
+[87624725-598a-45a4-9f10-49dedfeaf947]
+Description=Configurações de aplicativo para org.mozilla.Thunderbird
+desktops=b120ced6-6458-40c9-996f-b13826c720a6
+desktopsrule=3
+wmclass=\sorg.mozilla.Thunderbird
+wmclasscomplete=true
+wmclassmatch=1
+
 [General]
-count=7
-rules=1d4b27d3-123d-4147-b4a0-9f17105cfd62,50e3cffe-31f6-498c-ae3d-9a8d11bb4895,7cbfb31e-50a7-4127-9b06-f9c53eab57a9,2e295e01-b401-487b-9389-c08ad03cae7f,c97b1f10-fd17-4d07-ad3c-382977e70695,6422d457-1d29-4cdf-962e-00f99beceed5,e767a94a-77fb-498c-ace0-f78ee1188082
+count=9
+rules=87624725-598a-45a4-9f10-49dedfeaf947,b730e72c-a70b-44ec-8cc6-65c9f12cd38a,1d4b27d3-123d-4147-b4a0-9f17105cfd62,50e3cffe-31f6-498c-ae3d-9a8d11bb4895,7cbfb31e-50a7-4127-9b06-f9c53eab57a9,2e295e01-b401-487b-9389-c08ad03cae7f,c97b1f10-fd17-4d07-ad3c-382977e70695,6422d457-1d29-4cdf-962e-00f99beceed5,e767a94a-77fb-498c-ace0-f78ee1188082
+
+[b730e72c-a70b-44ec-8cc6-65c9f12cd38a]
+Description=Configurações de aplicativo para org.mozilla.firefox
+desktops=831d7787-5b40-4c63-a1ce-e666042b1a95
+desktopsrule=3
+wmclass=firefox org.mozilla.firefox
+wmclasscomplete=true
+wmclassmatch=1
 
 [c97b1f10-fd17-4d07-ad3c-382977e70695]
 Description=Firefox PIP
