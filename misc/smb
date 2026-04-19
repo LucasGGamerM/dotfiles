@@ -1,0 +1,7 @@
+# First, allow home dir samba shares:
+sudo setsebool -P samba_enable_home_dirs=1
+
+# Then, enable smb and nmb
+sudo systemctl enable --now smb nmb
+
+# And finally, disable home sharing in smb.conf
