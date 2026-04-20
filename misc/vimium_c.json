@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "16/10/2025, 11:02:31",
-	"time": 1760623351515,
+	"@time": "20/04/2026, 16:43:49",
+	"time": 1776714229323,
 	"environment": {
 		"extension": "2.12.3",
 		"platform": "linux",
-		"firefox": 143
+		"firefox": 149
 	},
 	"keyLayout": 2,
 	"keyMappings": [
@@ -13,6 +13,11 @@
 		"unmap f",
 		"map <c-f> LinkHints.activate",
 		"# mapKey <c-c> <c-[>",
+		"",
+		"unmap J",
+		"unmap K",
+		"map J nextTab",
+		"map K previousTab",
 		""
 	],
 	"vimSync": true
