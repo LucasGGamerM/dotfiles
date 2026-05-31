@@ -43,7 +43,7 @@ wmclassmatch=2
 Description=Configurações de aplicativo para org.mozilla.Thunderbird
 desktops=b120ced6-6458-40c9-996f-b13826c720a6
 desktopsrule=3
-wmclass=\sorg.mozilla.Thunderbird
+wmclass=org.mozilla.thunderbird_esr
 wmclasscomplete=true
 wmclassmatch=1
 
